@@ -14,8 +14,7 @@ namespace sq
         return Side;
     }
 
-    Square::Square() {
-        std::cout << "DEFUALT Const\n" ;
+    Square::Square(int a): Side(a) {
     }
 
     Square::~Square() {

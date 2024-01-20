@@ -4,11 +4,11 @@
 #include "Square.h++"
 
 int main() {
-    sq::Square A;
+    int some = 4;
+    sq::Square A(some);
 
 
-    A.SetSide(6);
-
+    //   A.PrintAll();
     std::cout<<A.Find_S(A.GetSide());
     return 0;
 

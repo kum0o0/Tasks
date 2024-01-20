@@ -6,7 +6,7 @@ namespace sq{
     class Square{
     public:
         void PrintAll();
-        Square();
+        Square(int Side);
         ~Square();
         void SetSide(int Side);
         int GetSide();
